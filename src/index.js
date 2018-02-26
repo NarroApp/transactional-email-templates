@@ -57,6 +57,7 @@ const billingOpt = {
 
 /**
  * Build billing/invoice email HTML
+ * module.exports.billing
  *
  * @access public
  * @param {Object} data
@@ -84,6 +85,7 @@ function constructBilling(data) {
 
 /**
  * Build alert email HTML
+ * module.exports.alert
  *
  * @access public
  * @param {Object} data
@@ -108,6 +110,7 @@ function constructAlert(data) {
 
 /**
  * Build action email HTML
+ * module.exports.action
  *
  * @access public
  * @param {Object} data
