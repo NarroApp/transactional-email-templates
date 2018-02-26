@@ -1,7 +1,7 @@
 const jade    = require('jade');
-const action  = jade.compileFile('./src/views/action.jade', null);
-const alert   = jade.compileFile('./src/views/alert.jade', null);
-const billing = jade.compileFile('./src/views/billing.jade', null);
+const action  = jade.compileFile(__dirname + '/views/action.jade', null);
+const alert   = jade.compileFile(__dirname + '/views/alert.jade', null);
+const billing = jade.compileFile(__dirname + '/views/billing.jade', null);
 const actionOpt = {
     title:                 null,
     bodyElements:          [],
