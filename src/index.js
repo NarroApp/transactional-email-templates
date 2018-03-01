@@ -32,6 +32,8 @@ const alertOpt = {
 };
 const billingOpt = {
     title:                 null,
+    alert:                 null,
+    alertColor:            '#ff9f00',
     headline:              null,
     bodyElements:          [],
     addressElements:       [],
