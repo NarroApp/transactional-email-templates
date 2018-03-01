@@ -1,6 +1,6 @@
 {
   "name": "transactional-email-templates",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "description": "Customizable transitional HTML email templates for node.js, compiled with variable content",
   "main": "src/index.js",
   "scripts": {
