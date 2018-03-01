@@ -63,9 +63,10 @@ html(xmlns='http://www.w3.org/1999/xhtml', style='font-family: \'Helvetica Neue\
               tr(style='font-family: \'Helvetica Neue\', \'Helvetica\', Helvetica, Arial, sans-serif; box-sizing: border-box; font-size: 14px; margin: 0; padding: 0;')
                 td.content-wrap.aligncenter(style='font-family: \'Helvetica Neue\', \'Helvetica\', Helvetica, Arial, sans-serif; box-sizing: border-box; font-size: 14px; vertical-align: top; text-align: center; margin: 0; padding: 20px;', align='center', valign='top')
                   table(width='100%', cellpadding='0', cellspacing='0', style='font-family: \'Helvetica Neue\', \'Helvetica\', Helvetica, Arial, sans-serif; box-sizing: border-box; font-size: 14px; margin: 0; padding: 0;')
-                    tr(style='font-family: \'Helvetica Neue\', \'Helvetica\', Helvetica, Arial, sans-serif; box-sizing: border-box; font-size: 14px; margin: 0; padding: 0;')
-                      td.content-block(style='font-family: \'Helvetica Neue\', \'Helvetica\', Helvetica, Arial, sans-serif; box-sizing: border-box; font-size: 14px; vertical-align: top; margin: 0; padding: 0 0 20px;', valign='top')
-                          h1(style='font-family: \'Helvetica Neue\', Helvetica, Arial, \'Lucida Grande\', sans-serif; box-sizing: border-box; font-size: 32px; color: #000; line-height: 1.2; font-weight: 500; margin: 40px 0 0; padding: 0;') #{headline}
+                    if headline
+                      tr(style='font-family: \'Helvetica Neue\', \'Helvetica\', Helvetica, Arial, sans-serif; box-sizing: border-box; font-size: 14px; margin: 0; padding: 0;')
+                        td.content-block(style='font-family: \'Helvetica Neue\', \'Helvetica\', Helvetica, Arial, sans-serif; box-sizing: border-box; font-size: 14px; vertical-align: top; margin: 0; padding: 0 0 20px;', valign='top')
+                            h1(style='font-family: \'Helvetica Neue\', Helvetica, Arial, \'Lucida Grande\', sans-serif; box-sizing: border-box; font-size: 32px; color: #000; line-height: 1.2; font-weight: 500; margin: 40px 0 0; padding: 0;') !{headline}
                     for elem in bodyElements
                       tr(style='font-family: \'Helvetica Neue\', \'Helvetica\', Helvetica, Arial, sans-serif; box-sizing: border-box; font-size: 14px; margin: 0; padding: 0;')
                         td.content-block(style='font-family: \'Helvetica Neue\', \'Helvetica\', Helvetica, Arial, sans-serif; box-sizing: border-box; font-size: 14px; vertical-align: top; margin: 0; padding: 0 0 20px;', valign='top')

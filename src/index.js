@@ -64,7 +64,7 @@ const billingOpt = {
  * @access public
  * @param {Object} data
  * @param {String} data.title
- * @param {String} data.headline
+ * @param {String} [data.headline]
  * @param {String[]} data.bodyElements
  * @param {String[]} data.addressElements
  * @param {String} [data.link]

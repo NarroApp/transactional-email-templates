@@ -122,7 +122,7 @@ const actionEmailHTML = templates.action({
  * @param {String} data.title
  * @param {String} [data.alert]
  * @param {String} [data.alertColor]
- * @param {String} data.headline
+ * @param {String} [data.headline]
  * @param {String[]} data.bodyElements
  * @param {String[]} data.addressElements
  * @param {String} [data.link]
